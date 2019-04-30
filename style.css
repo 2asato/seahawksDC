@@ -24,8 +24,9 @@ body {
   transition: background 500ms;
 }
 
-.navbar.scrolled.nav-link:hover {
-    color: black;
+.player-div {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
