@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(155, 161, 162);
+    background-color: rgb(184, 189, 190);
 }
 
 #mainNavbar .nav-link {
@@ -23,5 +23,10 @@ body {
   background: rgb(0, 21, 50);
   transition: background 500ms;
 }
+
+.navbar.scrolled.nav-link:hover {
+    color: black;
+}
+
 
 
