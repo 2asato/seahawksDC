@@ -29,5 +29,11 @@ body {
     margin-bottom: 50px;
 }
 
+@media (max-width: 1200px) {
+    #headingGroup {
+margin-top: 140px;
+margin-bottom: 90px;
+    }
+  }
 
 
