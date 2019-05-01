@@ -36,4 +36,16 @@ margin-bottom: 90px;
     }
   }
 
+.footer {
+    background: rgb(0, 21, 50);
+}
+
+#footer-txt {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-size: .9em;
+    font-weight: 100;
+}
+
 
