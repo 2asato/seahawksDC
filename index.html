@@ -24,8 +24,9 @@
     <!-- CSS  -->
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#mainNavbar">
     <!-- navbar-expand-md: expands to full at md resize -->
+    <a href="" id="top"></a>
     <nav
       class="navbar navbar-expand-sm navbar-dark py-0 fixed-top"
       id="mainNavbar"
@@ -36,6 +37,7 @@
           src="http://assets.stickpng.com/thumbs/580b585b2edbce24c47b2b58.png"
           alt=""
           srcset=""
+          data-value="top"
       /></a>
       <button
         class="navbar-toggler"
@@ -51,7 +53,7 @@
       <div class="collapse navbar-collapse" id="navLinks">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">HOME <span class="sr-only"></span></a>
+            <a class="nav-link" href="#top" data-value="top">HOME <span class="sr-only"></span></a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -66,37 +68,48 @@
               class="dropdown-menu dropdown-menu-right animate slideIn"
               aria-labelledby="navbarDropdown"
             >
-              <a class="dropdown-item" href="#metcalf">D.K. METCALF - WR</a>
-              <a class="dropdown-item" href="#jennings">GARY JENNINGS - WR</a>
-              <a class="dropdown-item" href="#haynes">PHIL HAYNES - G</a>
-              <a class="dropdown-item" href="#homer">TRAVIS HOMER - RB</a>
-              <a class="dropdown-item" href="#ursua">JOHN URSUA - WR</a>
+              <a class="dropdown-item" href="#metcalf" data-value="metcalf"
+                >D.K. METCALF - WR</a
+              >
+              <a class="dropdown-item" href="#jennings" data-value="jennings"
+                >GARY JENNINGS - WR</a
+              >
+              <a class="dropdown-item" href="#haynes" data-value="haynes"
+                >PHIL HAYNES - G</a
+              >
+              <a class="dropdown-item" href="#homer" data-value="homer"
+                >TRAVIS HOMER - RB</a
+              >
+              <a class="dropdown-item" href="#ursua" data-value="ursua"
+                >JOHN URSUA - WR</a
+              >
             </div>
           </li>
           <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  href="#"
-                  >DEFENSE</a
-                >
-                <div
-                  class="dropdown-menu dropdown-menu-right animate slideIn"
-                  aria-labelledby="navbarDropdown"
-                >
-                  <a class="dropdown-item" href="#collier">L.J. COLLIER - DL</a>
-                  <a class="dropdown-item" href="#blair">MARQUISE BLAIR - S</a>
-                  <a class="dropdown-item" href="#barton">CODY BARTON - LB</a>
-                  <a class="dropdown-item" href="#amadi">UGO AMADI - DB</a>
-                  <a class="dropdown-item" href="#kirven">BEN BURR-KIRVEN - LB</a>
-                  <a class="dropdown-item" href="#christmas">DEMARCUS CHRISTMAS - DT</a>
-
-                </div>
-              </li>
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              href="#"
+              >DEFENSE</a
+            >
+            <div
+              class="dropdown-menu dropdown-menu-right animate slideIn"
+              aria-labelledby="navbarDropdown"
+            >
+              <a class="dropdown-item" href="#collier" data-value="collier">L.J. COLLIER - DL</a>
+              <a class="dropdown-item" href="#blair" data-value="blair">MARQUISE BLAIR - S</a>
+              <a class="dropdown-item" href="#barton" data-value="barton">CODY BARTON - LB</a>
+              <a class="dropdown-item" href="#amadi" data-value="amadi">UGO AMADI - DB</a>
+              <a class="dropdown-item" href="#kirven" data-value="kirven">BEN BURR-KIRVEN - LB</a>
+              <a class="dropdown-item" href="#christmas" data-value="christmas"
+                >DEMARCUS CHRISTMAS - DT</a
+              >
+            </div>
+          </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" aria-disabled="true">UDFAs</a>
+            <a class="nav-link" href="#udfa" data-value="udfa" aria-disabled="true">UDFAs</a>
           </li>
         </ul>
       </div>
@@ -131,7 +144,8 @@
 
     <section class="container-fluid px-0">
       <!-- lj collier -->
-      <div class="row align-items-center player-div" id="collier">
+      <a href="" id="collier"></a>
+      <div class="row align-items-center player-div">
         <!-- order-2: at default in 2 position -->
         <!-- order-md-1: at md resize switches to 1 position -->
         <div class="col-md-6 order-1 order-md-1">
@@ -165,7 +179,8 @@
       </div>
 
       <!-- marquise blair -->
-      <div class="row align-items-center content player-div" id="blair">
+      <a href="" id="blair"></a>
+      <div class="row align-items-center content player-div">
         <div class="col-md-6 order-1 order-md-2">
           <img
             class="img-fluid"
@@ -197,7 +212,8 @@
       </div>
 
       <!-- dk metcalf -->
-      <div class="row align-items-center player-div" id="metcalf">
+      <a href="" id="metcalf"></a>
+      <div class="row align-items-center player-div">
         <!-- order-2: at default in 2 position -->
         <!-- order-md-1: at md resize switches to 1 position -->
         <div class="col-md-6 order-1 order-md-1">
@@ -231,7 +247,8 @@
       </div>
 
       <!-- cody barton -->
-      <div class="row align-items-center content player-div" id="barton">
+      <a href="" id="barton"></a>
+      <div class="row align-items-center content player-div">
         <div class="col-md-6 order-1 order-md-2">
           <img
             class="img-fluid"
@@ -263,7 +280,8 @@
       </div>
 
       <!-- gary jennings -->
-      <div class="row align-items-center player-div" id="jennings">
+      <a href="" id="jennings"></a>
+      <div class="row align-items-center player-div">
         <!-- order-2: at default in 2 position -->
         <!-- order-md-1: at md resize switches to 1 position -->
         <div class="col-md-6 order-1 order-md-1">
@@ -297,7 +315,8 @@
       </div>
 
       <!-- phil haynes -->
-      <div class="row align-items-center content player-div" id="haynes">
+      <a href="" id="haynes"></a>
+      <div class="row align-items-center content player-div">
         <div class="col-md-6 order-1 order-md-2">
           <img
             class="img-fluid"
@@ -329,7 +348,8 @@
       </div>
 
       <!-- ugo amadi -->
-      <div class="row align-items-center player-div" id="amadi">
+      <a href="" id="amadi"></a>
+      <div class="row align-items-center player-div">
         <!-- order-2: at default in 2 position -->
         <!-- order-md-1: at md resize switches to 1 position -->
         <div class="col-md-6 order-1 order-md-1">
@@ -363,7 +383,8 @@
       </div>
 
       <!-- ben burr-kirven -->
-      <div class="row align-items-center content player-div" id="kirven">
+      <a href="" id="kirven"></a>
+      <div class="row align-items-center content player-div">
         <div class="col-md-6 order-1 order-md-2">
           <img
             class="img-fluid"
@@ -395,7 +416,8 @@
       </div>
 
       <!-- travis homer -->
-      <div class="row align-items-center player-div" id="homer">
+      <a href="" id="homer"></a>
+      <div class="row align-items-center player-div">
         <!-- order-2: at default in 2 position -->
         <!-- order-md-1: at md resize switches to 1 position -->
         <div class="col-md-6 order-1 order-md-1">
@@ -429,7 +451,8 @@
       </div>
 
       <!-- demarcus christmas -->
-      <div class="row align-items-center content player-div" id="christmas">
+      <a href="" id="christmas"></a>
+      <div class="row align-items-center content player-div">
         <div class="col-md-6 order-1 order-md-2">
           <img
             class="img-fluid"
@@ -461,7 +484,8 @@
       </div>
 
       <!-- john ursua -->
-      <div class="row align-items-center player-div" id="ursua">
+      <a href="" id="ursua"></a>
+      <div class="row align-items-center player-div">
         <!-- order-2: at default in 2 position -->
         <!-- order-md-1: at md resize switches to 1 position -->
         <div class="col-md-6 order-1 order-md-1">
@@ -503,8 +527,8 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous"
     ></script>
     <script

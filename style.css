@@ -27,8 +27,9 @@ body {
 }
 
 .player-div {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    height: 500px;
 }
 
 @media (max-width: 1200px) {
