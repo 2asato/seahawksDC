@@ -26,6 +26,10 @@ body {
   transition: background 500ms;
 }
 
+#headingGroup {
+    color: rgb(0, 21, 50)
+}
+
 .player-div {
     margin-top: 90px;
     margin-bottom: 90px;
@@ -51,6 +55,7 @@ margin-bottom: 90px;
   }
 
 .footer {
+    margin-top: 25px;
     background: rgb(105, 190, 40);
 }
 
@@ -79,5 +84,10 @@ margin-bottom: 90px;
 
 .fab, .fa {
     color: rgb(105, 190, 40);
+}
+
+.listUDFA {
+    list-style-type: none;
+    padding-left: 0;
 }
 
