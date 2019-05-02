@@ -89,5 +89,11 @@ margin-bottom: 90px;
 .listUDFA {
     list-style-type: none;
     padding-left: 0;
+    color: white;
+}
+
+.udfas {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
