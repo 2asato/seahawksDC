@@ -43,6 +43,9 @@ margin-bottom: 90px;
       .player-info {
           margin-top: 25px;
       }
+      .player-div {
+          height: 800px;
+      }
   }
 
 .footer {

@@ -1,5 +1,6 @@
 console.log('hi');
 
+// page scroll animation
 $(".navbar a").click(function () {
     $("body,html").animate({
         scrollTop: $("#" + $(this).data('value')).offset().top
@@ -7,6 +8,7 @@ $(".navbar a").click(function () {
 
 })
 
+// changes nav color on scroll
 $(function () {
     $(document).scroll(function () {
         var $nav = $("#mainNavbar");
