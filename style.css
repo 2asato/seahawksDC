@@ -44,7 +44,9 @@ margin-bottom: 90px;
           margin-top: 25px;
       }
       .player-div {
-          height: 800px;
+          height: 750px;
+          margin-top: 50px;
+          margin-bottom: 0;
       }
   }
 
@@ -60,4 +62,22 @@ margin-bottom: 90px;
     font-weight: 100;
 }
 
+.player-info h2 {
+    color: rgb(0, 21, 50);
+}
+
+.player-info h5, h6 {
+    color: white;
+}
+
+.quote {
+    color: white;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-size: .9em;
+}
+
+.fab, .fa {
+    color: rgb(105, 190, 40);
+}
 
