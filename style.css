@@ -86,6 +86,10 @@ h6 {
   font-size: 0.9em;
 }
 
+.quote + p {
+  color: rgb(0, 21, 50);
+}
+
 .fab,
 .fa {
   color: rgb(105, 190, 40);
